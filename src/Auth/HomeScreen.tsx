@@ -5,6 +5,7 @@ import {BsGithub} from "react-icons/bs"
 import InputProps from "../reUse/InputProps";
 import {FiMail} from "react-icons/fi"
 import  {FiKey} from "react-icons/fi"
+import {BsFillRocketTakeoffFill} from "react-icons/bs"
 
 
 const HomeScreen = () => {
@@ -13,7 +14,7 @@ const HomeScreen = () => {
       <Container>
         <Main>
           <LogoHold>
-            <Logo></Logo>
+            <Logo><BsFillRocketTakeoffFill size={30} color="white"/></Logo>
             <LogoText>Sign Up!</LogoText>
           </LogoHold>
           <SignHold>
@@ -93,8 +94,11 @@ const Holder = styled.div``;
 const Logo = styled.div`
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background-color: #1885d3;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const LogoText = styled.div`
