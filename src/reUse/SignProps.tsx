@@ -50,5 +50,6 @@ align-items: center;
 transition: all 350ms;
 :hover{
   cursor: pointer;
+  color: #929292;
 }
 `;

@@ -78,7 +78,11 @@ border-radius: 5px;
 background-color: blue;
 color: white;
 margin-top: 10px;
-cursor: pointer;
+transition:  all 350ms;
+:hover{
+  cursor: pointer;
+  transform: translate(0px, -3px);
+}
 `;
 
 const OR = styled.div`
