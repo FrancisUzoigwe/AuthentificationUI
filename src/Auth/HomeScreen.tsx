@@ -56,7 +56,14 @@ margin-top: 10px;
 span{
   font-weight: bolder;
   text-decoration: underline;
-  
+  cursor: pointer;
+  transition: all 350ms;
+  color: black;
+  transition:  all 450ms;
+
+  :hover{
+    color: #626262;
+  }
 }
 `;
 
@@ -70,6 +77,7 @@ border-radius: 5px;
 background-color: blue;
 color: white;
 margin-top: 10px;
+cursor: pointer;
 `;
 
 const OR = styled.div`
